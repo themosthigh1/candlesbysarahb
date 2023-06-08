@@ -8,19 +8,16 @@ const product = defineType ({
   fields: [
     defineField
     ({
+        name: 'name',
+        title: 'Name',
+        type: 'string',
+    }),
+    defineField
+    ({
         name: 'image',
         title: 'Image',
         type: 'array',
         of: [{type: 'image'}],
-
-
-    }),
-    defineField
-    ({
-        name: 'name',
-        title: 'Name',
-        type: 'string',
-
     }),
     defineField
     ({
@@ -29,8 +26,7 @@ const product = defineType ({
         type: 'slug',
         options: {
             source: 'name',
-            maxLength: 90,
-            
+            maxLength: 90,  
         }
     }),
     defineField

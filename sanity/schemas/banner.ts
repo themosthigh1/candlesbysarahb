@@ -16,13 +16,13 @@ const banner = defineType ({
     defineField
     ({
         name: 'largeText1',
-        title: 'LargeText1',
+        title: 'Large Text 1',
         type: 'string',
     }),
     defineField
     ({
         name: 'largeText2',
-        title: 'LargeText2',
+        title: 'Large Text 2',
         type: 'string',
     }),
     defineField
@@ -34,13 +34,13 @@ const banner = defineType ({
     defineField
     ({
         name: 'saleTime',
-        title: 'SaleTime',
+        title: 'Sale Time',
         type: 'string',
     }),
     defineField
     ({
         name: 'buttonText',
-        title: 'ButtonText',
+        title: 'Button Text',
         type: 'string',
     }),
     defineField
@@ -52,13 +52,13 @@ const banner = defineType ({
     defineField
     ({
         name: 'midText',
-        title: 'MidText',
+        title: 'Mid Text',
         type: 'string',
     }),
     defineField
     ({
         name: 'smallText',
-        title: 'SmallText',
+        title: 'Small Text',
         type: 'string',
     }),
   ],
