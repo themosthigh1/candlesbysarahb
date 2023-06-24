@@ -61,7 +61,7 @@ export default function Header(props: MainFeaturedPostProps) {
             <Typography variant="h5" color="inherit" paragraph>
               {post.description}
             </Typography>
-            <Link variant="subtitle1" href="#">
+            <Link variant="subtitle1" href="/products">
               <Button variant='contained'>{post.linkText}</Button>
             </Link>
           </Box>
