@@ -25,7 +25,7 @@ export default function ProductCards({products}: Props) {
             <Grid item xs={12} md={3} key={product.name}>
                 <Card sx={{ maxWidth: 345 }}>
                   <CardMedia>
-                    <Image src={urlFor(product.image).url()} alt={product.name}/>
+                    
                   </CardMedia>
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
